@@ -57,6 +57,9 @@ h3 {
     padding-right: 1.25rem;
 }
 .container-large {
-    max-width: 90rem;
+    max-width: 87.5rem;
     width: 100%;
+}
+.container-medium {
+    max-width: 62.5rem;
 }
