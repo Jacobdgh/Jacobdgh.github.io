@@ -1,0 +1,62 @@
+:root {
+    --dark: #212027;
+    --grey: #9A9CA6;
+    --light: #F5F6FA;
+    --white: #FDFEFF;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--dark);
+    background-color: var(--white);
+    line-height: 106%;
+    letter-spacing: -0.02em;
+    font-size: 1rem;
+    font-weight: 400;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 90%;
+}
+h2 {
+    font-size: 3.25rem;
+    line-height: 90%;
+    font-weight: 600;
+}
+h3 {
+    font-size: 2.25rem;
+    line-height: 95%;
+    font-weight: 700;
+}
+.subheading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 90%;
+}
+.text-size-small {
+    font-size: 0.875rem;
+}
+.text-weight-light {
+    font-weight: 300;
+}
+.text-weight-regular {
+    font-weight: 400;
+}
+.text-weight-medium {
+    font-weight: 500;
+}
+.text-weight-semibold {
+    font-weight: 600;
+}
+.text-weight-bold {
+    font-weight: 700;
+}
+.padding-global {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.container-large {
+    max-width: 90rem;
+    width: 100%;
+}
